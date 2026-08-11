@@ -641,6 +641,41 @@ img{
   section,header{overflow:clip}
 }
 
+/* ===== V9 — MOMENTOS ROMÁNTICOS ===== */
+.describe-love{
+  text-align:center;
+  padding:90px 20px 80px;
+  position:relative;
+}
+.love-words{
+  width:min(720px,92vw);
+  margin:38px auto 0;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:12px;
+}
+.love-words span{
+  padding:13px 19px;
+  border:1px solid rgba(225,210,222,.18);
+  border-radius:999px;
+  background:rgba(255,255,255,.035);
+  color:#e9d7e2;
+  box-shadow:0 10px 28px rgba(0,0,0,.22);
+}
+.describe-love:after{
+  content:"✦";
+  display:block;
+  margin-top:48px;
+  color:#d49bb9;
+  opacity:.6;
+}
+@media(max-width:700px){
+  .describe-love{padding:65px 16px 60px}
+  .love-words{gap:9px}
+  .love-words span{padding:11px 14px;font-size:.95rem}
+}
+
 /* ===== RESPONSIVE ===== */
 @media(max-width:700px){
   .counter{grid-template-columns:repeat(2,1fr)}
@@ -688,9 +723,9 @@ img{
 <div id="intro">
   <div class="intro">
     <div class="logo-orbit"><i></i></div>
-    <div class="kicker">Una historia escrita entre estrellas</div>
+    <div class="kicker">Un cuento oscuro escrito entre dos corazones</div>
     <h1>Mon Cher<br>♡ Cara Mía</h1>
-    <p>Hay encuentros que cambian un universo entero.</p>
+    <p>Hay millones de personas en el mundo… y aun así, mi universo terminó encontrándote a ti.</p>
     <button class="enter" id="enter">Entrar a nuestro universo ✨</button>
   </div>
 </div>
@@ -731,8 +766,8 @@ img{
 <section>
   <div class="wrap">
     <div class="section-label">Nuestros primeros recuerdos</div>
-    <h2 class="title">Nuestro pequeño universo 🌌</h2>
-    <p class="sub">Las primeras cinco fotos son las estrellas de nuestra galaxia. La animación está construida para que las tarjetas permanezcan completas y no se corten.</p>
+    <h2 class="title">Nuestro cuento entre estrellas 🌙</h2>
+    <p class="sub">Las primeras cinco fotos son las estrellas de nuestro cuento. Una galaxia oscura, romántica y un poco extraña, hecha para nosotros.</p>
 
     <div class="galaxy-stage">
       <div class="galaxy-core">
@@ -760,16 +795,16 @@ img{
     <p class="sub">Las fotos 6 a 15 guardan esas pequeñas cosas que adoro de ti. Cada imagen es una de mis favoritas, un detalle que hace que te quiera todavía más.</p>
 
     <div class="memories">
-      <div class="memory"><div class="memory-inner"><img src="fotos/foto6.jpg" alt="Recuerdo 6" onclick="openPhoto(this.src)"><div class="memory-note">“Un momento que quiero guardar para siempre.”<small>RECUERDO Nº 06</small></div></div></div>
-      <div class="memory"><div class="memory-inner"><img src="fotos/foto7.jpg" alt="Recuerdo 7" onclick="openPhoto(this.src)"><div class="memory-note">“Porque contigo hasta lo sencillo se vuelve especial.”<small>RECUERDO Nº 07</small></div></div></div>
-      <div class="memory"><div class="memory-inner"><img src="fotos/foto8.jpg" alt="Recuerdo 8" onclick="openPhoto(this.src)"><div class="memory-note">“Otro pedacito de nuestra historia.”<small>RECUERDO Nº 08</small></div></div></div>
-      <div class="memory"><div class="memory-inner"><img src="fotos/foto9.jpg" alt="Recuerdo 9" onclick="openPhoto(this.src)"><div class="memory-note">“Quiero vivir muchos momentos así contigo.”<small>RECUERDO Nº 09</small></div></div></div>
-      <div class="memory"><div class="memory-inner"><img src="fotos/foto10.jpg" alt="Recuerdo 10" onclick="openPhoto(this.src)"><div class="memory-note">“Mi lugar favorito siempre será a tu lado.”<small>RECUERDO Nº 10</small></div></div></div>
-      <div class="memory"><div class="memory-inner"><img src="fotos/foto11.jpg" alt="Recuerdo 11" onclick="openPhoto(this.src)"><div class="memory-note">“Gracias por formar parte de mi vida.”<small>RECUERDO Nº 11</small></div></div></div>
-      <div class="memory"><div class="memory-inner"><img src="fotos/foto12.jpg" alt="Recuerdo 12" onclick="openPhoto(this.src)"><div class="memory-note">“Hay recuerdos que se sienten como abrazos.”<small>RECUERDO Nº 12</small></div></div></div>
-      <div class="memory"><div class="memory-inner"><img src="fotos/foto13.jpg" alt="Recuerdo 13" onclick="openPhoto(this.src)"><div class="memory-note">“Otro instante que mi corazón eligió.”<small>RECUERDO Nº 13</small></div></div></div>
-      <div class="memory"><div class="memory-inner"><img src="fotos/foto14.jpg" alt="Recuerdo 14" onclick="openPhoto(this.src)"><div class="memory-note">“Ojalá pudiéramos pausar algunos momentos.”<small>RECUERDO Nº 14</small></div></div></div>
-      <div class="memory"><div class="memory-inner"><img src="fotos/foto15.jpg" alt="Recuerdo 15" onclick="openPhoto(this.src)"><div class="memory-note">“Y este universo todavía tiene muchas páginas.”<small>RECUERDO Nº 15</small></div></div></div>
+      <div class="memory"><div class="memory-inner"><img src="fotos/foto6.jpg" alt="Recuerdo 6" onclick="openPhoto(this.src)"><div class="memory-note">“Tu sonrisa es uno de mis lugares favoritos.”<small>RECUERDO Nº 06</small></div></div></div>
+      <div class="memory"><div class="memory-inner"><img src="fotos/foto7.jpg" alt="Recuerdo 7" onclick="openPhoto(this.src)"><div class="memory-note">“Contigo, hasta un instante pequeño se vuelve infinito.”<small>RECUERDO Nº 07</small></div></div></div>
+      <div class="memory"><div class="memory-inner"><img src="fotos/foto8.jpg" alt="Recuerdo 8" onclick="openPhoto(this.src)"><div class="memory-note">“Hay algo en ti que siempre consigue encontrarme.”<small>RECUERDO Nº 08</small></div></div></div>
+      <div class="memory"><div class="memory-inner"><img src="fotos/foto9.jpg" alt="Recuerdo 9" onclick="openPhoto(this.src)"><div class="memory-note">“Quiero llenar mi vida de momentos a tu lado.”<small>RECUERDO Nº 09</small></div></div></div>
+      <div class="memory"><div class="memory-inner"><img src="fotos/foto10.jpg" alt="Recuerdo 10" onclick="openPhoto(this.src)"><div class="memory-note">“No importa dónde estemos, si estoy contigo estoy en casa.”<small>RECUERDO Nº 10</small></div></div></div>
+      <div class="memory"><div class="memory-inner"><img src="fotos/foto11.jpg" alt="Recuerdo 11" onclick="openPhoto(this.src)"><div class="memory-note">“Gracias por llegar a mi vida cuando más necesitaba encontrarte.”<small>RECUERDO Nº 11</small></div></div></div>
+      <div class="memory"><div class="memory-inner"><img src="fotos/foto12.jpg" alt="Recuerdo 12" onclick="openPhoto(this.src)"><div class="memory-note">“Algunos recuerdos todavía puedo sentirlos como un abrazo tuyo.”<small>RECUERDO Nº 12</small></div></div></div>
+      <div class="memory"><div class="memory-inner"><img src="fotos/foto13.jpg" alt="Recuerdo 13" onclick="openPhoto(this.src)"><div class="memory-note">“Mi corazón guarda estos momentos como pequeños tesoros.”<small>RECUERDO Nº 13</small></div></div></div>
+      <div class="memory"><div class="memory-inner"><img src="fotos/foto14.jpg" alt="Recuerdo 14" onclick="openPhoto(this.src)"><div class="memory-note">“Si pudiera detener el tiempo, elegiría quedarme aquí contigo.”<small>RECUERDO Nº 14</small></div></div></div>
+      <div class="memory"><div class="memory-inner"><img src="fotos/foto15.jpg" alt="Recuerdo 15" onclick="openPhoto(this.src)"><div class="memory-note">“Y lo mejor es que todavía nos quedan muchas páginas por escribir.”<small>RECUERDO Nº 15</small></div></div></div>
     </div>
   </div>
 </section>
@@ -791,7 +826,7 @@ img{
     </div>
 
     <div class="secret">
-      <button id="secretButton">💌 Hay algo que quiero decirte...</button>
+      <button id="secretButton">💌 Abre una carta que escribí para ti...</button>
       <div class="secret-content" id="secretContent">
         <p>Si alguna vez dudas de lo importante que eres para mí, vuelve aquí. En algún lugar de este universo existe una persona que agradece infinitamente haberte encontrado. ❤️</p>
       </div>
@@ -845,7 +880,7 @@ img{
 <section class="final">
   <div class="wrap">
     <div class="final-heart">❤️</div>
-    <h3>Si pudiera volver al<br>20 de agosto de 2025...</h3>
+    <h3>Y entre todos los universos posibles…<br>yo volvería a encontrarte a ti.</h3>
     <p>te elegiría otra vez.</p>
     <p class="forever">Mon Cher & Cara Mía · Para siempre ♾️</p>
   </div>
